@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1054ACD72EA1BF0800C9B0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1054ACB52EA1BF0600C9B0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1054ACBC2EA1BF0700C9B0D9;
+			remoteInfo = KidsMathApp;
+		};
+		1054ACE12EA1BF0800C9B0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1054ACB52EA1BF0600C9B0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1054ACBC2EA1BF0700C9B0D9;
+			remoteInfo = KidsMathApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1054ACBD2EA1BF0700C9B0D9 /* KidsMathApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsMathApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1054ACD62EA1BF0800C9B0D9 /* KidsMathAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsMathAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1054ACE02EA1BF0800C9B0D9 /* KidsMathAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsMathAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1054ACE82EA1BF0800C9B0D9 /* Exceptions for "KidsMathApp" folder in "KidsMathApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1054ACBC2EA1BF0700C9B0D9 /* KidsMathApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1054ACBF2EA1BF0700C9B0D9 /* KidsMathApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1054ACE82EA1BF0800C9B0D9 /* Exceptions for "KidsMathApp" folder in "KidsMathApp" target */,
+			);
+			path = KidsMathApp;
+			sourceTree = "<group>";
+		};
+		1054ACD92EA1BF0800C9B0D9 /* KidsMathAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KidsMathAppTests;
+			sourceTree = "<group>";
+		};
+		1054ACE32EA1BF0800C9B0D9 /* KidsMathAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KidsMathAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1054ACBA2EA1BF0700C9B0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACD32EA1BF0800C9B0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACDD2EA1BF0800C9B0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1054ACB42EA1BF0600C9B0D9 = {
+			isa = PBXGroup;
+			children = (
+				1054ACBF2EA1BF0700C9B0D9 /* KidsMathApp */,
+				1054ACD92EA1BF0800C9B0D9 /* KidsMathAppTests */,
+				1054ACE32EA1BF0800C9B0D9 /* KidsMathAppUITests */,
+				1054ACBE2EA1BF0700C9B0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1054ACBE2EA1BF0700C9B0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1054ACBD2EA1BF0700C9B0D9 /* KidsMathApp.app */,
+				1054ACD62EA1BF0800C9B0D9 /* KidsMathAppTests.xctest */,
+				1054ACE02EA1BF0800C9B0D9 /* KidsMathAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1054ACBC2EA1BF0700C9B0D9 /* KidsMathApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1054ACE92EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathApp" */;
+			buildPhases = (
+				1054ACB92EA1BF0700C9B0D9 /* Sources */,
+				1054ACBA2EA1BF0700C9B0D9 /* Frameworks */,
+				1054ACBB2EA1BF0700C9B0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1054ACBF2EA1BF0700C9B0D9 /* KidsMathApp */,
+			);
+			name = KidsMathApp;
+			packageProductDependencies = (
+			);
+			productName = KidsMathApp;
+			productReference = 1054ACBD2EA1BF0700C9B0D9 /* KidsMathApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1054ACD52EA1BF0800C9B0D9 /* KidsMathAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1054ACEE2EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathAppTests" */;
+			buildPhases = (
+				1054ACD22EA1BF0800C9B0D9 /* Sources */,
+				1054ACD32EA1BF0800C9B0D9 /* Frameworks */,
+				1054ACD42EA1BF0800C9B0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1054ACD82EA1BF0800C9B0D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1054ACD92EA1BF0800C9B0D9 /* KidsMathAppTests */,
+			);
+			name = KidsMathAppTests;
+			packageProductDependencies = (
+			);
+			productName = KidsMathAppTests;
+			productReference = 1054ACD62EA1BF0800C9B0D9 /* KidsMathAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1054ACDF2EA1BF0800C9B0D9 /* KidsMathAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1054ACF12EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathAppUITests" */;
+			buildPhases = (
+				1054ACDC2EA1BF0800C9B0D9 /* Sources */,
+				1054ACDD2EA1BF0800C9B0D9 /* Frameworks */,
+				1054ACDE2EA1BF0800C9B0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1054ACE22EA1BF0800C9B0D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1054ACE32EA1BF0800C9B0D9 /* KidsMathAppUITests */,
+			);
+			name = KidsMathAppUITests;
+			packageProductDependencies = (
+			);
+			productName = KidsMathAppUITests;
+			productReference = 1054ACE02EA1BF0800C9B0D9 /* KidsMathAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1054ACB52EA1BF0600C9B0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1054ACBC2EA1BF0700C9B0D9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1054ACD52EA1BF0800C9B0D9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1054ACBC2EA1BF0700C9B0D9;
+					};
+					1054ACDF2EA1BF0800C9B0D9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1054ACBC2EA1BF0700C9B0D9;
+					};
+				};
+			};
+			buildConfigurationList = 1054ACB82EA1BF0600C9B0D9 /* Build configuration list for PBXProject "KidsMathApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1054ACB42EA1BF0600C9B0D9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1054ACBE2EA1BF0700C9B0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1054ACBC2EA1BF0700C9B0D9 /* KidsMathApp */,
+				1054ACD52EA1BF0800C9B0D9 /* KidsMathAppTests */,
+				1054ACDF2EA1BF0800C9B0D9 /* KidsMathAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1054ACBB2EA1BF0700C9B0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACD42EA1BF0800C9B0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACDE2EA1BF0800C9B0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1054ACB92EA1BF0700C9B0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACD22EA1BF0800C9B0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1054ACDC2EA1BF0800C9B0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1054ACD82EA1BF0800C9B0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1054ACBC2EA1BF0700C9B0D9 /* KidsMathApp */;
+			targetProxy = 1054ACD72EA1BF0800C9B0D9 /* PBXContainerItemProxy */;
+		};
+		1054ACE22EA1BF0800C9B0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1054ACBC2EA1BF0700C9B0D9 /* KidsMathApp */;
+			targetProxy = 1054ACE12EA1BF0800C9B0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1054ACEA2EA1BF0800C9B0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsMathApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1054ACEB2EA1BF0800C9B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsMathApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1054ACEC2EA1BF0800C9B0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1054ACED2EA1BF0800C9B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1054ACEF2EA1BF0800C9B0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidsMathApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KidsMathApp";
+			};
+			name = Debug;
+		};
+		1054ACF02EA1BF0800C9B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KidsMathApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KidsMathApp";
+			};
+			name = Release;
+		};
+		1054ACF22EA1BF0800C9B0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KidsMathApp;
+			};
+			name = Debug;
+		};
+		1054ACF32EA1BF0800C9B0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UHCL.KidsMathAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KidsMathApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1054ACB82EA1BF0600C9B0D9 /* Build configuration list for PBXProject "KidsMathApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054ACEC2EA1BF0800C9B0D9 /* Debug */,
+				1054ACED2EA1BF0800C9B0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1054ACE92EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054ACEA2EA1BF0800C9B0D9 /* Debug */,
+				1054ACEB2EA1BF0800C9B0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1054ACEE2EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054ACEF2EA1BF0800C9B0D9 /* Debug */,
+				1054ACF02EA1BF0800C9B0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1054ACF12EA1BF0800C9B0D9 /* Build configuration list for PBXNativeTarget "KidsMathAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1054ACF22EA1BF0800C9B0D9 /* Debug */,
+				1054ACF32EA1BF0800C9B0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1054ACB52EA1BF0600C9B0D9 /* Project object */;
+}
